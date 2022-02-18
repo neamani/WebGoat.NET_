@@ -89,7 +89,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
                 if (target_image != null)
                 {
                     FileInfo fi = new FileInfo(Server.MapPath(target_image));
-                    lblOutput.Text = fi.FullName;
+                    lblOutput.Text = Html.Encode(fi.FullName);
 
                     NameValueCollection imageExtensions = new NameValueCollection();
                     imageExtensions.Add(".jpg", "image/jpeg");
