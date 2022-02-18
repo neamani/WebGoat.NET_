@@ -97,7 +97,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
                     imageExtensions.Add(".png", "image/png");
 
                     Response.ContentType = imageExtensions.Get(fi.Extension);
-                    Response.AppendHeader("Content-Disposition", "attachment; filename=" + fi.Name);
+                    Response.AppendHeader("Content-Disposition", "attachment; filename=" + Html.Encode(fi.Name));
                     Response.TransmitFile(fi.FullName);
                     Response.End();
                 }
