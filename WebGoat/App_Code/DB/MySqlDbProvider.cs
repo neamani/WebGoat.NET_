@@ -204,7 +204,7 @@ namespace OWASP.WebGoat.NET.App_Code.DB
                       string sql = "select email from CustomerLogin where customerNumber = @customerNumber";
 
                     MySqlCommand command = new MySqlCommand(sql, connection);
-
+                    
                     command.Parameters.AddWithValue("@customerNumber",customerNumber)
 
                     output = command.ExecuteScalar().ToString();
