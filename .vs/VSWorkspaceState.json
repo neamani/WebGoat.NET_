@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebGoat",
+    "\\WebGoat\\App_Code",
+    "\\WebGoat\\App_Code\\DB",
+    "\\WebGoat\\Content"
   ],
+  "SelectedNode": "\\WebGoat\\Content\\ReadlineDoS.aspx.cs",
   "PreviewInSolutionExplorer": false
 }
