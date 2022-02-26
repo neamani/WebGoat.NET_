@@ -3,9 +3,8 @@
     "",
     "\\WebGoat",
     "\\WebGoat\\App_Code",
-    "\\WebGoat\\App_Code\\DB",
-    "\\WebGoat\\Content"
+    "\\WebGoat\\App_Data"
   ],
-  "SelectedNode": "\\WebGoat\\Content\\ReadlineDoS.aspx.cs",
+  "SelectedNode": "\\WebGoat\\App_Code\\ConfigFile.cs",
   "PreviewInSolutionExplorer": false
 }
