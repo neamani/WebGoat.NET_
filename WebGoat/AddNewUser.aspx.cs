@@ -9,7 +9,7 @@ using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
-// comment for triggering build in jenkins
+// comment for triggering build in
 namespace OWASP.WebGoat.NET
 {
 	public partial class AddNewUser : System.Web.UI.Page
