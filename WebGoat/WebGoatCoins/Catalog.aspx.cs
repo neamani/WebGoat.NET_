@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using OWASP.WebGoat.NET.App_Code.DB;
 using OWASP.WebGoat.NET.App_Code;
-
+// comment catalog
 namespace OWASP.WebGoat.NET.WebGoatCoins
 {
     public partial class Catalog : System.Web.UI.Page
