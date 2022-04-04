@@ -4,6 +4,7 @@ using System.Text;
 using System.IO;
 
 // ido
+// ido neamani
 namespace OWASP.WebGoat.NET.App_Code
 {
     public class ConfigFile
